@@ -10,7 +10,7 @@ def menu():
     [nu]\tNovo usuário
     [q]\tSair
     => """
-    return input(textwrap.dedent(menu))
+    return input(menu)
 
 
 def depositar(saldo, valor, extrato, /):
